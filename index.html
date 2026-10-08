@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="images/SMIT-icon.png" rel="icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enroll Now | Saylani Mass IT Training - IT Courses</title>
+  </head>
+  <body>
+    <img src="images/SMIT.png" alt="SMIT Logo" height="45" width="70" />
+    <br />
+    <img
+      src="images/RegistrationForm.png"
+      alt="Heading of Registration Form"
+      height="220"
+      width="1245"
+    />
+    <form action="http://www.example.com/subscribe.php" method="post">
+      <h2>
+        <img src="images/location-icon.png" height="19" width="20" />
+        Location & Course Details
+      </h2>
+      <label>Select Country<span>*</span></label>
+      <br />
+      <select name="countries" required>
+        <option hidden disabled selected>Select country</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="turkey">Turkey</option>
+        <option value="yemen">Yemen</option>
+        <option value="africa">Africa</option>
+      </select>
+      <br />
+      <br />
+      <label>Select class preference<span>*</span></label>
+      <br />
+      <select name="class timing" required>
+        <option hidden disabled selected>Select class preference</option>
+        <option value="online">Online</option>
+        <option value="onsite">Onsite</option>
+      </select>
+      <br />
+      <br />
+      <label>Select Gender<span>*</span></label>
+      <br />
+      <select name="gender" required>
+        <option hidden disabled selected>Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <br />
+      <br />
+      <label>Select City<span>*</span></label>
+      <br />
+      <select name="city" required>
+        <option hidden disabled selected>Select city</option>
+        <option value="karachi">Karachi</option>
+        <option value="lahore">Lahore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="faisalabad">Faisalabad</option>
+        <option value="multan">Multan</option>
+        <option value="sukkur">Sukkur</option>
+      </select>
+      <br />
+      <br />
+      <label>Select Course<span>*</span></label>
+      <br />
+      <select name="courses" required>
+        <option hidden disabled selected>Select course</option>
+        <option value="modern web application development ">
+          Modern Web Application Development
+        </option>
+        <option value="graphic designing">Graphic designing</option>
+        <option value="agentic ai">Agentic AI</option>
+        <option value="digital marketnig">Digital Marketing</option>
+      </select>
+      <br />
+      <br />
+      <label>Select Campus</label>
+      <br />
+      <select name="campus" required>
+        <option hidden disabled selected>Select campus</option>
+        <option value="bahadurabad">Bahadurabad</option>
+        <option value="gulshan">Gulshan</option>
+        <option value="numaish">Numaish</option>
+        <option value="north nazimabad">North Nazimabad</option>
+        <option value="malir">Malir</option>
+      </select>
+      <br />
+      <br />
+      <h2>
+        <img
+          src="images/Person-Icon.png"
+          alt="Personal Information Icon"
+          height="19"
+          width="20"
+        />
+        Personal Information
+      </h2>
+      <label>
+        Full Name <span>*</span>
+        <br />
+        <input
+          type="text"
+          name="full name"
+          maxlength="30"
+          placeholder="Enter your full name"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Father Name <span>*</span>
+        <br />
+        <input
+          type="text"
+          name="father name"
+          maxlength="30"
+          placeholder="Enter father's name"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Date of Birth <span>*</span>
+        <br />
+        <input
+          type="date"
+          name="date of birth"
+          placeholder="mm/dd/yyyy"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email <span>*</span>
+        <br />
+        <input
+          type="email"
+          name="email"
+          placeholder="your.email@example.com"
+          maxlength="20"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Phone <span>*</span>
+        <br />
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Enter phone number"
+          maxlength="11"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Father's Phone <span>*</span>
+        <br />
+        <input
+          type="tel"
+          name="father's phone"
+          placeholder="Enter phone number"
+          maxlength="11"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        ID Number <span>*</span>
+        <br />
+        <input
+          type="tel"
+          name="id number"
+          placeholder="Enter ID number"
+          maxlength="13"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Father's ID Number <span>*</span>
+        <br />
+        <input
+          type="tel"
+          name="father's id number"
+          placeholder="Enter ID number"
+          maxlength="13"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label>Address <span>*</span></label>
+      <br />
+      <textarea
+        name="address"
+        cols="20"
+        rows="4"
+        maxlength="220"
+        placeholder="Enter your complete address (minimum 10 characters)"
+        required
+      ></textarea>
+      <h2>
+        <img
+          src="images/EducationIcon.png"
+          alt="Education outline icon"
+          height="21"
+          width="19"
+        />
+        Education & Technical Details
+      </h2>
+      <label>Computer Proficiency <span>*</span></label>
+      <br />
+      <select name="computer proficiency" required>
+        <option hidden disabled selected>
+          Select your computer proficiency
+        </option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select>
+      <br />
+      <br />
+      <label>Last Qualification <span>*</span></label>
+      <br />
+      <select name="last qualification" required>
+        <option hidden disabled selected>Last qualification</option>
+        <option value="matriculation">Matriculation</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="undergraduate">Undergraduate</option>
+        <option value="bachelor's degree">Bachelor's Degree</option>
+        <option value="master's degree">Master's Degree</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <br />
+      <label>Where did you hear about us? <span>*</span></label>
+      <br />
+      <select name="where did you hear about us?" required>
+        <option hidden disabled selected>Where did you hear about us?</option>
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+        <option value="youtube">YouTube</option>
+        <option value="tiktok">TikTok</option>
+        <option value="google search">Google Search</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="sit website">SIT Website</option>
+        <option value="friend / family">Friend / Family</option>
+        <option value="teacher / institute">Teacher / Institute</option>
+        <option value="twitter">Twitter</option>
+        <option value="linkedin">LinkedLn</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <br />
+      <label>Do you have a Laptop? <span>*</span></label>
+      <br />
+      <input id="yes" type="radio" name="do you have a laptop? " value="y" />
+      <label for="yes">Yes</label>
+      <input id="no" type="radio" name="do you have a laptop? " value="n" />
+      <label for="no">No</label>
+      <h2>
+        <img
+          src="images/DownloadIcon.png"
+          alt="Download Icon"
+          height="19"
+          width="20"
+        />
+        Upload Picture
+      </h2>
+      <input type="file" name="upload picture" />
+      <br />
+      <input type="submit" value="Upload Picture" />
+      <ul>
+        <li>With white or blue background</li>
+        <li>File size must be less than 1MB</li>
+        <li>File type: jpg, jpeg, png</li>
+        <li>Upload your recent passport size picture</li>
+        <li>Your Face should be clearly visible without any Glasses</li>
+      </ul>
+      <h2>
+        <img
+          src="images/TermsIcon.png"
+          alt="Terms & Condition icon. "
+          height="22"
+          width="20"
+        />Terms and Conditions
+      </h2>
+
+      <input
+        id="I hereby solemnly declare that all information provided in this application is true and accurate to the best of my knowledge. Furthermore, I agree to abide by all current and future rules, regulations, and policies established by SIT."
+        type="checkbox"
+        name="terms and conditions"
+        value="I hereby solemnly declare that all information provided in this application is true and accurate to the best of my knowledge. Furthermore, I agree to abide by all current and future rules, regulations, and policies established by SIT."
+      />
+      <label
+        for="I hereby solemnly declare that all information provided in this application is true and accurate to the best of my knowledge. Furthermore, I agree to abide by all current and future rules, regulations, and policies established by SIT."
+      >
+        I hereby solemnly declare that all information provided in this
+        application is true and accurate to the best of my knowledge.
+        Furthermore, I agree to abide by all current and future rules,
+        regulations, and policies established by SIT.
+      </label>
+      <br />
+      <input
+        id="I accept the responsibility to maintain good conduct throughout the program and commit to focusing solely on learning. I will not engage in any political, unethical, or unrelated activities during my enrollment. Any violation may result in immediate cancellation of my admission."
+        type="checkbox"
+        name="terms and conditions"
+        value="I accept the responsibility to maintain good conduct throughout the program and commit to focusing solely on learning. I will not engage in any political, unethical, or unrelated activities during my enrollment. Any violation may result in immediate cancellation of my admission."
+      />
+      <label
+        for="I accept the responsibility to maintain good conduct throughout the program and commit to focusing solely on learning. I will not engage in any political, unethical, or unrelated activities during my enrollment. Any violation may result in immediate cancellation of my admission."
+      >
+        I accept the responsibility to maintain good conduct throughout the
+        program and commit to focusing solely on learning. I will not engage in
+        any political, unethical, or unrelated activities during my enrollment.
+        Any violation may result in immediate cancellation of my admission.
+      </label>
+      <br />
+      <input
+        id="Upon completion of the course, I agree to successfully complete any project assigned by SIT as part of the program requirements."
+        type="checkbox"
+        name="terms and conditions"
+        value="Upon completion of the course, I agree to successfully complete any project assigned by SIT as part of the program requirements."
+      />
+      <label
+        for="Upon completion of the course, I agree to successfully complete any project assigned by SIT as part of the program requirements."
+      >
+        Upon completion of the course, I agree to successfully complete any
+        project assigned by SIT as part of the program requirements.
+      </label>
+      <br />
+      <input
+        id="Female students are required to wear an abaya or hijab while attending classes."
+        type="checkbox"
+        name="terms and conditions"
+        value="Female students are required to wear an abaya or hijab while attending classes."
+      />
+      <label
+        for="Female students are required to wear an abaya or hijab while attending classes."
+      >
+        Female students are required to wear an abaya or hijab while attending
+        classes.
+      </label>
+      <hr />
+      <p>
+        By submitting this form, you agree to our<i> Privacy Policy </i>and<i>
+          Terms of Service</i
+        >.
+      </p>
+
+      <h3>Important Notice:</h3>
+      <p>
+        Please ensure all information provided is accurate. Incomplete or false
+        information may result in rejection of your application.
+      </p>
+      <input id="I'm not a robot" type="checkbox" value="I'm not a robot" />
+      <label for="I'm not a robot">
+        I'm not a robot
+        <img src="images/reCAPTCHA.png" alt="reCAPTCHA" height="20" width="22"
+      /></label>
+      <br />
+      <br />
+      <button>
+        <img
+          src="images/SubmitIcon.png"
+          alt="Submit Icon"
+          height="19"
+          width="20"
+        />
+        Submit Registration
+      </button>
+    </form>
+  </body>
+</html>
